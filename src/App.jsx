@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-white rounded-xl py-2 px-10 pb-6 mb-24 w-128'>
+      <div className='bg-white rounded-xl py-2 px-10 pb-6 mb-44 w-128'>
         <h1 className='font-mono m-4 text-2xl text-gray-700'>Password Generator</h1>
 
         <input 
@@ -42,9 +42,9 @@ function App() {
           readOnly
         />
         <button onClick={() =>
-          navigator.clipboard.writeText(generatedPassword)
-            .then(() => document.querySelector("#inputfield")?.select())
-            .catch(err => console.error("Failed to copy", err))} className='px-3 py-1 font-mono rounded-r-md bg-orange-400 hover:bg-orange-600'>Copy</button>
+    navigator.clipboard.writeText(generatedPassword)
+      .then(() => document.querySelector("#inputfield")?.select())
+      .catch(err => console.error("Failed to copy", err))} className='px-3 py-1 font-mono rounded-r-md bg-orange-400 hover:bg-orange-600'>Copy</button>
 
         <div className='flex justify-center justify-around mt-3'>
           <div className='flex align-middle m-3'>
@@ -92,14 +92,7 @@ function App() {
           <label htmlFor='Length'>Length: {passwordLength}</label>
         </div>
       </div>
-
-      <footer className='text-center text-gray-700 text-base mt-6'>
-        <p>Made by <span className='font-mono text-gray-900 font-bold'>Subhan Kausar</span></p>
-        <a href="https://github.com/Subhankausar" target="_blank" rel="noopener noreferrer" className='inline-flex items-center mt-2'>
-          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className='w-6 h-6 mr-2' />
-          <span className='text-gray-900'>Visit my GitHub</span>
-        </a>
-      </footer>
+      
     </>
   );
 }
