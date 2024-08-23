@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-white rounded-xl py-2 px-10 pb-6 mb-20 w-128'>
+      <div className='bg-white rounded-xl py-2 px-10 pb-6 mb-24 w-128'>
         <h1 className='font-mono m-4 text-2xl text-gray-700'>Password Generator</h1>
 
         <input 
@@ -93,8 +93,12 @@ function App() {
         </div>
       </div>
 
-      <footer className='text-center text-gray-500 text-sm mt-6'>
-        <p>Made by <span className='font-mono text-gray-700'>Subhan Kausar</span></p>
+      <footer className='text-center text-gray-700 text-base mt-6'>
+        <p>Made by <span className='font-mono text-gray-900 font-bold'>Subhan Kausar</span></p>
+        <a href="https://github.com/Subhankausar" target="_blank" rel="noopener noreferrer" className='inline-flex items-center mt-2'>
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className='w-6 h-6 mr-2' />
+          <span className='text-gray-900'>Visit my GitHub</span>
+        </a>
       </footer>
     </>
   );
