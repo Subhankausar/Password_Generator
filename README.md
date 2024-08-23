@@ -11,7 +11,7 @@ A simple and customizable password generator built with React. This application 
 
 ## Demo
 
-You can view a live demo of the application [here](#).
+You can view a live demo of the application [here](https://password-generator-delta-five-40.vercel.app/).
 
 ## Installation
 
@@ -19,4 +19,4 @@ To get started with this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/password-generator.git
+   git clone https://github.com/subhankausar/password-generator.git
